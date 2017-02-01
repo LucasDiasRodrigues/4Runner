@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_grey600_24dp"
+
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/treino"
+            android:checked="false"
+            android:icon="@drawable/ic_calendar_text_grey600_48dp"
+            android:title="@string/treinos" />
+
+        <item
+            android:id="@+id/corridaLivre"
+            android:checked="false"
+            android:icon="@drawable/ic_calendar_text_grey600_48dp"
+            android:title="@string/corridas_livres" />
+
+        <item
+            android:id="@+id/testeCampo"
+            android:checked="false"
+            android:icon="@drawable/ic_calendar_text_grey600_48dp"
+            android:title="@string/testesdecampo" />
+
+        <item
+            android:id="@+id/estatisticas"
+            android:checked="false"
+            android:icon="@drawable/ic_content_paste_grey600_48dp"
+            android:title="@string/estatisticas" />
+
+        <item
+            android:id="@+id/configuracoes"
+            android:checked="false"
+            android:icon="@drawable/ic_settings_grey600_48dp"
+            android:title="@string/configuracoes" />
+
+
+
+
+    </group>
+
+</menu>

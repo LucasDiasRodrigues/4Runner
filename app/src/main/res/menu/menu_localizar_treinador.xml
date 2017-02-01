@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.team4runner.forrunner.LocalizarTreinadorActivity">
+
+
+    <item android:id="@+id/action_localizar"
+        android:title="@string/localizarporemail"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_magnify_white_48dp"
+        app:showAsAction="collapseActionView|always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/action_localizar_location"
+        android:title="@string/localizartreinadorporposicaogeografica"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_map_marker_circle_white_48dp"
+        app:showAsAction="ifRoom"
+       />
+
+
+
+</menu>

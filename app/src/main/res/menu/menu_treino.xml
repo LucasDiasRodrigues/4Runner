@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/detalhesTreino"
+        android:checked="false"
+        android:icon="@drawable/ic_home_grey600_24dp"
+        android:title="@string/detalheTreino" />
+
+    <item
+        android:id="@+id/cancelar"
+        android:checked="false"
+        android:icon="@drawable/ic_walk_grey600_48dp"
+        android:title="@string/cancelar" />
+
+
+</menu>

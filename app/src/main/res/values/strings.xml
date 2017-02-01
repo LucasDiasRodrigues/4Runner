@@ -1,0 +1,510 @@
+<resources>
+    <string name="app_name">4Runner</string>
+    <string name="imageserver">http://4runnerapp.com.br/ServerPhp/img/</string>
+    <string name="imageservermini">http://4runnerapp.com.br/ServerPhp/img_thumb/</string>
+    <string name="admtreinador">adm@4runnerapp.com.br</string>
+
+    <string name="Abanner_ad_unit_idTeste">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8995076627360959/3198808028</string>
+    <string name="banner_ad_unit_id_mainTreinador">ca-app-pub-8995076627360959/5116729623</string>
+
+    <string name="corridaEmAndamento">Uma corrida está em andamento</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="entrar">Entrar</string>
+    <string name="conclusao">Conclusão</string>
+    <string name="cadastrese">Cadastre-se</string>
+    <string name="title_activity_main_corredor">MainCorredorActivityActivity</string>
+
+    <string name="testedecampo">Teste de campo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer"></string>
+    <string name="closeDrawer"></string>
+    <string name="objetivo">Objetivo</string>
+
+    <string name="action_example">Example action</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="esqueciSenha">Esqueci minha senha</string>
+    <string name="localizartreinador">Localizar treinador</string>
+    <string name="localizarporemail">Localizar por email</string>
+    <string name="localizartreinadorporposicaogeografica">Localizar por posição geográfica</string>
+    <string name="localizartreinadorporposicaogeografica1">Serão listados todos os treinadores que atuam próximos da localização informada por você no cadastro.</string>
+
+    <string name="localizarcorredorporposicaogeografica">Localizar por posição geográfica</string>
+    <string name="localizarcorredorporposicaogeografica1">Serão listados todos os corredores que estão próximos da localização informada por você no cadastro.</string>
+
+    <string name="localizarporposicaogeograficaerro">Você não possui uma localização válida cadastrada. Para utilizar essa funcionalidade informe sua localização no menu de configurações</string>
+
+
+    <string name="meutreino">Meu Treino</string>
+    <string name="meutreinador">Meu Treinador</string>
+
+    <string name="home">Home</string>
+    <string name="historico">Histórico</string>
+
+    <string name="corridas_livres">Corridas Livres</string>
+
+
+    <string name="estatisticas">Estatísticas</string>
+    <string name="amigos">Amigos</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="title_activity_run">RunActivity</string>
+
+    <string name="novidades">Novidades</string>
+
+    <string name="rankings">Rankings</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="run">Run</string>
+    <string name="title_activity_cadastro_corredor">CadastroCorredorActivity</string>
+    <string name="limpar">Limpar</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="sexo">Sexo</string>
+    <string name="nome">Nome</string>
+
+    <string name="datanasc">Data de Nascimento</string>
+    <string name="cadastroinfobasic">Informações básicas</string>
+    <string name="ola">Olá, </string>
+    <string name="falesobrevoce">Fale um pouco sobre você</string>
+    <string name="falesobreprof">Fale um pouco sobre sua experiência profissional</string>
+
+    <string name="avancar">Avançar</string>
+    <string name="corredor">Corredor</string>
+    <string name="treinador">Treinador</string>
+    <string name="telefone">Telefone</string>
+
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="pulsoEmRepouso">Pulso em repouso</string>
+    <string name="erroTenteNovamente">Ops… algo deu errado, tente novamente.</string>
+    <string name="cref">Número do CREF</string>
+
+    <string name="FaleFormacao">Fale sobre sua formação</string>
+    <string name="formacao">Formação</string>
+    <string name="escolhafoto">Escolha uma foto</string>
+    <string name="tirarfoto">Tirar Foto</string>
+    <string name="escolherdagaleria">Escolher da galeria</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="preenchacampo">Preencha este campo</string>
+    <string name="title_activity_main_treinador">MainTreinadorActivity</string>
+    <string name="exercicios">Exercícios</string>
+    <string name="meuscorredores">Meus Corredores</string>
+    <string name="title_activity_cadastro_exercicio">CadastroExercicioActivity</string>
+    <string name="title_activity_cadastro_treino">CadastroTreinoActivity</string>
+    <string name="nomeexercicio">Nome do exercício</string>
+    <string name="descricaoexercicio">Descrição do exercício</string>
+    <string name="preenchaoscamposabaixo">Preencha os campos abaixo com as informações solicitadas.</string>
+    <string name="cadastrodeexercicios">Cadastro de exercícios</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="title_activity_historico_por_treino">HistoricoPorTreinoActivity</string>
+    <string name="title_activity_dia_de_treino">DiaDeTreinoActivity</string>
+    <string name="diatreino_comtreino">Olá! Suas próximas atividades estão abaixo.</string>
+    <string name="diatreino_semtreino">Você não possui atividades hoje.</string>
+    <string name="confirma_cadastro_exercicio">Confirma o cadastro deste exercicio?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="nometreino">Nome do treino</string>
+    <string name="qtdsemanastreino">Quantidade de semanas do treino: </string>
+    <string name="qtddiastreino">Quantidade de dias de treino em cada semana: </string>
+    <string name="intensidade">Intensidade</string>
+    <string name="grupoexercicios">Grupo de exercícios</string>
+    <string name="repeticoes">Repetições</string>
+    <string name="novogrupoexerc">Novo grupo de exercícios</string>
+
+
+    <string-array name="spinner_estatisticas">
+        <item>Geral</item>
+        <item>Por treino</item>
+        <item>Corridas livres</item>
+    </string-array>
+
+    <string-array name="teste_treino">
+        <item>Treino Atual</item>
+        <item>Treino #3</item>
+        <item>Treino #2</item>
+        <item>Treino #1</item>
+    </string-array>
+    <string-array name="teste_semana">
+        <item>Semana 1</item>
+        <item>Semana 2</item>
+        <item>Semana 3</item>
+        <item>Semana 4</item>
+    </string-array>
+    <string-array name="teste_dia">
+        <item>Dia 1</item>
+        <item>Dia 2</item>
+        <item>Dia 3</item>
+        <item>Dia 4</item>
+    </string-array>
+
+    <string name="distancia">Distância</string>
+    <string name="tempo">Tempo</string>
+    <string name="velocidademax">Velocidade Max</string>
+    <string name="ritmomedio">Ritmo Médio</string>
+    <string name="calorias">Calorias</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_meu_corredor_treinador">MeuCorredorTreinadorActivity</string>
+    <string name="alunodesde">Aluno desde:</string>
+
+    <string name="perfil">Perfil</string>
+    <string name="treinos">Treinos</string>
+    <string name="logof">Sair</string>
+    <string name="desejasair">Realmente deseja sair do aplicativo?</string>
+    <string name="title_activity_obter_localizacao">ObterLocalizacaoActivity</string>
+    <string name="obterlocalizacao">Obter Localização</string>
+    <string name="pular">Pular</string>
+
+    <string name="informalocalizacao">Agora, nos informe a localização em que atua</string>
+    <string name="descricaolocalizacao">Essa localização será utilizada para indicar você à corredores que optarem por
+                                        procurar treinadores em sua região.
+                                        Se não estiver próximo ao seu local de atuação, não se preocupe, você pode fazer isso
+                                        depois através do menu de configurações.</string>
+
+    <string name="permissaolocalizacaotreinador">Permito que meu perfil seja apresentado à corredores próximos da minha localização</string>
+    <string name="permissaolocalizacaocorredor">Permito que meu perfil seja apresentado à treinadores próximos da minha localização enquanto eu não estiver associado a um treinador</string>
+    <string name="okentendi">OK! Entendi.</string>
+
+    <string name="cadastrarlocalizacao">Está certo de que quer cadastrar essa localização?
+    Não se preocupe, você poderá mudar isso quando quiser :)</string>
+
+    <string name="esperevoutentar">Espere...</string>
+    <string name="tenhocerteza">Tenho certeza!</string>
+    <string name="ops">Ops!</string>
+    <string name="opserro">Ops... ocorreu algum erro. Tente novamente</string>
+    <string name="esqueceulocalizacao">Acho que você se esqueceu de clicar em "Obter Localização".</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_obter_localizacao_corredor">ObterLocalizacaoCorredorActivity</string>
+    <string name="informalocalizacaocorredor">Agora, nos informe sua localização</string>
+    <string name="descricaolocalizacaocorredor">Essa localização será utilizada para que possamos apresentar à você os treinadores
+                                            que atuam próximo a sua região.
+                                        Se não estiver próximo da sua região, não se preocupe, você pode fazer isso
+                                        depois através do menu de configurações.</string>
+    <string name="title_activity_localizar_treinador">LocalizarTreinadorActivity</string>
+    <string name="procureumtreinador">Procure um treinador</string>
+    <string name="title_activity_visualiza_perfil_treinador">VisualizaPerfilTreinadorActivity</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="associaraotreinador">Associar-se ao treinador?</string>
+    <string name="associaraocorredor">Associar-se ao corredor?</string>
+    <string name="treinadorentraracontato">Esse treinador receberá sua solicitação e entrará em contato com você</string>
+    <string name="desejaassociaraocorredor">Deseja associar-se a esse corredor?</string>
+    <string name="solicitacaoenviada">Solicitação enviada!</string>
+    <string name="quersercorredor">quer ser seu/sua corredor(a)!</string>
+    <string name="cliqueparavermais">Clique para ver mais</string>
+    <string name="title_activity_visualiza_perfil_corredor">VisualizaPerfilCorredorActivity</string>
+    <string name="parabensnovocorredor">Parabéns! você tem um novo corredor.</string>
+    <string name="alterarperfil">Alterar</string>
+
+    <string name="iniciar">Iniciar</string>
+    <string name="pausar">Pausar</string>
+    <string name="parar">Parar</string>
+    <string name="salvarcorrida">Salvar corrida</string>
+    <string name="desejasalvarcorrida">Deseja salvar essa corrida?</string>
+    <string name="title_activity_after_run">AfterRunActivity</string>
+    <string name="observacoes">Observações</string>
+    <string name="intervaloentrerepeticoes">Intervalo entre repetições (segundos)</string>
+    <string name="duracao">Duração</string>
+    <string name="intervalo">Intervalo</string>
+    <string name="intervalodedescanso">Intervalo de descanso</string>
+    <string name="inicio">Inicio</string>
+    <string name="termino">Término</string>
+    <string name="fim">Fim</string>
+    <string name="status">Status</string>
+    <string name="title_activity_detalhe_treino">DetalheTreinoActivity</string>
+    <string name="notadotreinador">Nota do treinador</string>
+    <string name="avaliacaodocorredor">Avaliação do corredor</string>
+    <string name="semanas">semanas</string>
+    <string name="semana">semana</string>
+    <string name="percentualassiduidade">Percentual de assiduidade</string>
+    <string name="chat">Chat</string>
+    <string name="corpo_notificacao_chat1">Você tem </string>
+    <string name="corpo_notificacao_chat2"> mensagem(ns)</string>
+    <string name="corpo_notificacao_associacao_corredor">Existem treinadores interessados em te assessorar!</string>
+    <string name="corpo_notificacao_associacao_treinador">Você tem novas solicitações de corredores!</string>
+    <string name="corpo_notificacao_associacao_corredor_aceita">Parabéns, agora você possui um treinador!</string>
+    <string name="corpo_notificacao_associacao_treinador_aceita">Parabéns, vc tem um novo corredor!</string>
+    <string name="corpo_notificacao_teste_agendado">Você tem um novo teste de campo agendado</string>
+    <string name="corpo_notificacao_treino_agendado">Você tem um novo treino agendado</string>
+    <string name="title_activity_novos_corredores">NovosCorredoresActivity</string>
+    <string name="novos_corredores">Novos corredores</string>
+
+    <string name="recusar_corredor_titulo_dialog">Recusar associacão</string>
+    <string name="recusar_corredor_corpo_dialog">Tem certeza que deseja recusar este corredor?</string>
+    <string name="confirma_recusar_corredor_corpo_dialog">Corredor recusado</string>
+
+    <string name="avaliacoes"> Avaliações</string>
+    <string name="title_activity_novidades_ver_todos">NovidadesVerTodosActivity</string>
+
+    <string name="visualizar_corrida">Visualizar Corrida</string>
+    <string name="geral">Geral</string>
+    <string name="title_activity_visualizar_corrida">VisualizarCorridaActivity</string>
+
+    <string name="vel_max">Velocidade máxima</string>
+    <string name="vel_med">Velocidade média</string>
+    <string name="rit_med">Ritmo médio</string>
+    <string name="rit_max">Ritmo máximo</string>
+    <string name="corrida">Corrida</string>
+    <string name="percepcaodeesforco">Percepção de esforço</string>
+    <string name="clima">Clima</string>
+    <string name="terreno">Terreno</string>
+    <string name="testesdecampo">Testes de campo</string>
+    <string name="datadoteste">Data do Teste</string>
+    <string name="volume">Volume</string>
+    <string name="cancelarteste">Cancelar teste de campo</string>
+    <string name="desejacancelarteste">Tem certeza que deseja cancelar esse teste? Essa ação não poderá ser desfeita.</string>
+    <string name="errotreinoativo">Testes de campo só podem ser agendados se não houver nenhum treino em andamento. Por favor, escolha outra data.</string>
+    <string name="errotestependente">Já existe um teste de campo agendado. Deseja substituí-lo?</string>
+    <string name="testeCancelado">Teste cancelado</string>
+
+    <string name="metros">Metros</string>
+    <string name="atencao">Atenção!</string>
+    <string name="minutos">Minutos</string>
+
+    <string name="voceestaaqui">Você está aqui!</string>
+    <string name="title_activity_cadastro_teste">CadastroTesteActivity</string>
+    <string name="title_activity_cadastrar_teste_de_campo">CadastrarTesteDeCampo</string>
+    <string name="title_activity_teste">testeActivity</string>
+    <string name="title_activity_localizar_corredores">LocalizarCorredoresActivity</string>
+    <string name="localizarcorredores">Localizar Corredores</string>
+    <string name="desativarconta">Desativar conta</string>
+    <string name="desejadesativarconta">Tem certeza que deseja desativar sua conta?</string>
+    <string name="contadesativada">Conta desativada.</string>
+
+
+    <string name="localizacao">Localização</string>
+    <string name="conta">Conta</string>
+    <string name="title_activity_configuracao_conta">ConfiguracaoContaActivity</string>
+
+    <string name="alterarSenha">Alterar senha</string>
+
+    <string name="senhaatual">Senha atual</string>
+    <string name="privacidade">Privacidade</string>
+    <string name="novasenha">Nova senha</string>
+    <string name="confirmarnovasenha">Confirmar nova senha</string>
+    <string name="permissaolocstatus">Permito que meu perfil seja localizado por outros usuários</string>
+    <string name="salvaralteracao">Salvar alteração</string>
+    <string name="senhasdiferentes">Senhas não são iguais</string>
+    <string name="senhaalterada">Senha alterada!</string>
+    <string name="senhaincorreta">Senha atual incorreta</string>
+
+
+    <string name="inativarexercicio">Inativar exercicio</string>
+    <string name="desejainativarexercicio">Deseja inativar esse exercicio? Essa operação não poderá ser desfeita.</string>
+
+    <string name="desassociarCorredor">Desassociar-se do corredor</string>
+    <string name="desassociarTreinador">Desassociar-se do treinador</string>
+    <string name="simcerteza">Sim, tenho certeza</string>
+
+    <string name="desejadesassociarcorredor">Tem certeza que pretende se desvincular desse corredor?</string>
+    <string name="desejadesassociartreinador">Tem certeza que pretende se desvincular desse treinador?</string>
+
+    <string name="desassociado">Desassociado</string>
+    <string name="desassociadotreinadortexto">Esse corredor não aparecerá mais na sua lista.</string>
+    <string name="desassociadocorredortexto">Não perca tempo! Localize já outro treinador para ajuda-lo a atingir seus objetivos.</string>
+
+
+    <string name="conversas">Conversas</string>
+    <string name="atribuirnota">Atribuir nota</string>
+    <string name="alterarnota">Alterar nota</string>
+    <string name="notaalterada">Nota alterada.</string>
+
+    <string name="avaliartreino">Avaliar treino</string>
+    <string name="alteraravaliacao">Alterar avaliação</string>
+    <string name="avaliacaoalterada">Avaliação alterada.</string>
+
+    <string name="escolhatipocorrida">Escolha o tipo da corrida</string>
+
+    <string-array name="tipo_corrida_treino">
+        <item>Corrida de Treino</item>
+        <item>Corrida Livre</item>
+    </string-array>
+
+    <string name="escolhaRaio">Escolha a distância</string>
+
+    <string-array name="localizarRaio">
+        <item>5Km</item>
+        <item>10Km</item>
+        <item>50Km</item>
+        <item>100Km</item>
+    </string-array>
+
+    <string-array name="tipo_corrida_teste">
+        <item>Corrida de Teste de Campo</item>
+        <item>Corrida Livre</item>
+    </string-array>
+
+    <string name="parabens">Parabéns!!!</string>
+    <string name="atingiuobj">Você acabou de atingir sua meta de correr </string>
+
+    <string name="coloquenovameta">Agora, sugerimos que você coloque uma nova meta para continuar motivado. </string>
+
+    <string name="salvar">Salvar</string>
+
+    <string name="naoavaliar">Não quero avaliar</string>
+    <string name="enviaravaliacao">Enviar avaliação</string>
+
+    <string name="treinoconcluido">Treino concluido</string>
+
+    <string name="treinoconcluidomsg1"> concluiu o treino</string>
+    <string name="sobremim">Sobre mim</string>
+
+    <string name="alteracaoefetuada">Alteração efetuada</string>
+    <string name="datainiciotreino">Data de início</string>
+    <string name="diasdetreino">Dias de treino</string>
+
+    <string name="terminoutreino">Você terminou o seu treino. Dê um feedback para seu treinador! Sua opinião o ajudará a montar treinos cada vez melhores.</string>
+
+
+    <string name="errodatainiciotreino"></string>
+    <string name="errotestependentetreino">Existe um teste de campo cadastrado no periodo escolhido para o treino.
+        Se você continuar ele será automaticamente cancelado.</string>
+
+    <string name="continuar">Continuar</string>
+
+    <string name="escolhaoexercicio">Escolha o exercicio</string>
+
+    <string name="salvarTreino">Salvar treino</string>
+
+    <string name="salvarTreinomsg">Deseja cadastrar o treino?</string>
+
+    <string name="periodo">Período</string>
+    <string name="cadastro_treino_obs">O cadastro está quase terminando. Agora, você pode incluir observações gerais sobre o treino.</string>
+
+    <string name="finalizarCadastro">Finalizar cadastro</string>
+
+
+    <string name="cancelarTreino">Cancelar treino</string>
+    <string name="inativar">Inativar</string>
+    <string name="listaexercicios">Lista de exercícios</string>
+
+    <string name="senhacurta">A senha deve conter no mínimo 5 caracteres</string>
+
+    <string name="confirmarSenha">Confirmar senha</string>
+
+    <string name="emailInvalido">E-mail inválido</string>
+    <string name="dadosInvalidos">Dados inválidos</string>
+
+    <string name="sexonaopreenchido">Escolha uma opção</string>
+
+    <string name="emailjacadastrado">Este e-mail já Está cadastrado em nosso banco de dados. Por favor, escolha outro.</string>
+
+    <string name="cancelarTreinoMsg">Deseja cancelar este treino? Esta ação não poderá ser desfeita</string>
+
+
+    <string name="errotreinoativo2">Já existe um treino cadastrado neste periodo. Por favor, escolha outra data.</string>
+
+    <string name="obtendoLocalizacao">Obtendo localização</string>
+
+    <string name="gpsDesligado">O GPS está desligado, deseja ligar agora?</string>
+    <string name="permitir">Permitir</string>
+    <string name="negar">Negar</string>
+    <string name="permissaoNegada">Permissão negada.</string>
+    <string name="permissaoNegadaMsg">Essa funcionalidade só poderá ser utilizada se você permitir que acessemos sua localização.</string>
+
+    <string name="semNovidades">Não há novidades para exibir.</string>
+    <string name="semAlunos">Você ainda não possui alunos.</string>
+
+    <string name="segundaFeira">Segunda-feira</string>
+    <string name="tercaFeira">Terça-feira</string>
+    <string name="quartaFeira">Quarta-feira</string>
+    <string name="quintaFeira">Quinta-feira</string>
+    <string name="sextaFeira">Sexta-feira</string>
+    <string name="sabado">Sábado</string>
+    <string name="domingo">Domingo</string>
+
+    <string name="anos">anos</string>
+    <string name="cadastrateste">Cadastra teste de campo</string>
+
+
+
+    <string name="treinosavencer">Treinos a vencer</string>
+    <string name="treinosconcluidos">Treinos concluídos</string>
+    <string name="ultimascorridas">Últimas corridas</string>
+    <string name="ultimostestesdecampo">Últimos testes de campo</string>
+    <string name="novoscorredores">Novos corredores</string>
+    <string name="corridasdetreinonaorealizadas">Corridas de treino não realizadas</string>
+    <string name="testedecamponaorealizado">Testes de campo não realizados</string>
+
+    <string name="cadastroteste">Cadastro de teste de campo</string>
+    <string name="exercicio">Exercício</string>
+    <string name="correr">Correr</string>
+
+    <string name="temposegundos">Tempo (segundos)</string>
+
+    <string name="volumemetros">Volume (metros)</string>
+
+    <string name="campopreenchidoincorretamente">Campo preenchido incorretamente</string>
+
+    <string name="camposerrados">Existem campos não preenchidos ou preenchidos incorretamente</string>
+
+    <string name="emailEnviado">Email enviado!</string>
+    <string name="acesseemailparasenha">Agora você só precisa acessar o seu email para recuperar sua senha.</string>
+
+    <string name="informacoesInvalidas">Certifique-se que os dados informados estão corretos.</string>
+
+    <string name="avaliarTreinador">Avaliar treinador</string>
+
+    <string name="avaliar">Avaliar</string>
+
+    <string name="treinadorAvaliado">Treinador Avaliado.</string>
+
+    <string name="textoPse">Em uma escala de 0 a 10, avalie o seu nível de esforço nesta corrida.</string>
+
+    <string name="salvarCorrida">Salvar corrida</string>
+
+    <string name="pontosInsufucientes">Desculpe. Não conseguimos captar uma rota válida para esta corrida.</string>
+    <string name="erroTemperatura">Erro ao obter temperatura. Verifique sua conexão com a internet.</string>
+    <string name="tentarNovamente">Tentar novamente</string>
+
+    <string name="ultimasCorridasDeTreino">Últimas corridas de treino</string>
+
+    <string name="conexaoIndosponivel">Você está offline. Verifique sua conexão com a internet</string>
+
+    <string name="DistanciaMetros">Distância (metros)</string>
+    <string name="RitmoMedioMK">Ritmo Médio (Min/Km)</string>
+
+    <string name="concluido">Concluído</string>
+    <string name="pendente">Pendente</string>
+
+    <string name="configConta">Configuração de conta</string>
+    <string name="nenhumTreino">Nenhum treino cadastrado</string>
+    <string name="nenhumTeste">Nenhum teste cadastrado</string>
+
+    <string name="editar">Editar</string>
+
+    <string name="nenhumNovoCorredor">Nenhuma solicitação pendente</string>
+    <string name="solicitacoespendentes">Solicitações pendentes</string>
+    <string name="subsolicitacoespendentes">Estes corredores querem ser treinados por você!</string>
+
+    <string name="detalheTreino">Detalhes do treino</string>
+
+    <string name="falhaLocalizacao">Falha na localização. Tente novamente.</string>
+
+    <string name="cadastrobasico">Cadastro básico</string>
+
+    <string name="msgnaolocalizacaotitulo">Tem certeza de que não quer habilitar esta funcionalidade agora? Não se esqueça que você podera alterar sua localização a qualquer momento no menu de configurações. </string>
+
+    <string name="bemvindo_ao_4runner">Agora você faz parte do time 4Runner! :)</string>
+
+    <string name="descartarAlteracoes">Tem certeza que deseja sair? Todos os dados informados serão perdidos.</string>
+    <string name="sair">Sair</string>
+
+
+
+
+
+
+    <string name="naohaconversas">Não há conversas para exibir.</string>
+    <string name="naohatreinos">Não há treinos para exibir.</string>
+    <string name="naohatestes">Não há testes de campo para exibir.</string>
+    <string name="naohacorridaslivres">Não há corridas livres para exibir.</string>
+
+    <string name="possuiAssociacaoPendente">Você já enviou uma solicitação de associação à outro treinador. Deseja continuar e cancelar a solicitação anterior?</string>
+
+
+
+</resources>

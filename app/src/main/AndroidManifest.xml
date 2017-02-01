@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.team4runner.forrunner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.google.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="com.team4runner.forrunner.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.team4runner.forrunner.permission.C2D_MESSAGE" />
+    <!-- Declara a permissão para se registrar no GCM e receber mensagens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_4runner"
+        tools:replace="android:icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        android:name=".ForRunnerAppClass"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainCorredorActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RunActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_run"
+            android:parentActivityName=".MainCorredorActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainCorredorActivity" />
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:configChanges="orientation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CadastroUsuarioActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_cadastro_corredor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainTreinadorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_main_treinador"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CadastroExercicioActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_cadastro_exercicio"
+            android:parentActivityName=".MainTreinadorActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.MainTreinadorActivity" />
+        </activity>
+        <activity
+            android:name=".CadastroTreinoActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_cadastro_treino"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HistoricoPorTreinoActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_historico_por_treino"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DiaDeTreinoActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dia_de_treino"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PerfilCorredorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_perfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PerfilTreinadorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_perfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MeuCorredorTreinadorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_meu_corredor_treinador"
+            android:parentActivityName=".MainTreinadorActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.MainTreinadorActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAgpvOVSBCT3saDo6bnxxC2Pbt5q6XJ9k4" />
+
+        <activity
+            android:name=".ObterLocalizacaoTreinadorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_obter_localizacao"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ObterLocalizacaoCorredorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_obter_localizacao_corredor"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LocalizarTreinadorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_localizar_treinador"
+            android:parentActivityName=".MainCorredorActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainCorredorActivity" />
+        </activity>
+        <activity
+            android:name=".VisualizaPerfilTreinadorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_visualiza_perfil_treinador"
+            android:parentActivityName=".LocalizarTreinadorActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.LocalizarTreinadorActivity" />
+        </activity>
+        <activity
+            android:name=".VisualizaPerfilCorredorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_visualiza_perfil_corredor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AfterRunActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_after_run"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetalheTreinoActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_detalhe_treino"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!--
+BroadcastReceiver para receber as mensagens do GCM, por meio de Intents.
+Este receiver precisa estar ser declarado no manifesto, para que as mensagens sejam interceptadas mesmo com o aplicativo fechado. Este receiver vai iniciar o service GcmIntentService, que está declarado mais abaixo.
+        -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.gcm" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".GCM.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".GCM.RegistrationIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".NovosCorredoresActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_novos_corredores"
+            android:parentActivityName=".MainTreinadorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.MainTreinadorActivity" />
+        </activity>
+        <activity
+            android:name=".NovidadesVerTodosActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_novidades_ver_todos"
+            android:parentActivityName=".MainTreinadorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team4runner.forrunner.MainTreinadorActivity" />
+        </activity>
+        <activity
+            android:name=".VisualizarCorridaActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_visualizar_corrida"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CadastroTesteActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_cadastro_teste"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LocalizarCorredoresActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_localizar_corredores"
+            android:parentActivityName=".NovosCorredoresActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NovosCorredoresActivity" />
+        </activity>
+        <activity
+            android:name=".ConfiguracaoContaActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_configuracao_conta"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ConversasActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".service.RunIntentService"
+            android:exported="false"></service>
+
+
+        <!--  Porqueiras para o appodeal  -->
+
+        <meta-data android:name="com.appodeal.framework" android:value="android" />
+        <receiver android:name="com.appodeal.ads.AppodealPackageAddedReceiver" android:exported="true" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.appodeal.ads.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.appodeal.ads.VideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity android:name="com.appodeal.ads.LoaderActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <activity android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true"
+            android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity android:name="com.applovin.adview.AppLovinInterstitialActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <activity android:name="com.mopub.mobileads.MoPubActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name="com.mopub.common.MoPubBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.mopub.mobileads.MraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity android:name="org.nexage.sourcekit.mraid.MRAIDBrowser"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+
+        <activity android:name="com.amazon.device.ads.AdActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+        <activity android:name="com.my.target.ads.MyTargetActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+        <activity android:name="org.nexage.sourcekit.vast.activity.VASTActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <activity android:name="org.nexage.sourcekit.vast.activity.VPAIDActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.appodeal.ads.networks.vpaid.VPAIDActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <activity android:name="com.appodeal.ads.networks.SpotXActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity android:name="com.unity3d.ads.android.view.UnityAdsFullscreenActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
+        <activity android:name="com.unity3d.ads.android2.view.UnityAdsFullscreenActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
+
+
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.jirbo.adcolony.AdColonyOverlay"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.jirbo.adcolony.AdColonyFullscreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.jirbo.adcolony.AdColonyBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.vungle.publisher.FullScreenAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
+            android:theme="@android:style/Theme" />
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.startapp.android.publish.OverlayActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.startapp.android.publish.FullScreenActivity"
+            android:theme="@android:style/Theme"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <service android:name="com.yandex.metrica.MetricaService" android:enabled="true"
+            android:exported="true" android:process=":Metrica">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.yandex.metrica.IMetricaService" />
+                <data android:scheme="metrica" />
+            </intent-filter>
+            <meta-data android:name="metrica:api:level" android:value="44" />
+        </service>
+        <receiver android:name="com.yandex.metrica.MetricaEventHandler"
+            android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.yandex.mobile.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!--suppress AndroidDomInspection -->
+        <activity android:name="com.flurry.android.FlurryFullscreenTakeoverActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <activity android:name="com.appodeal.ads.VideoPlayerActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+
+
+
+        <!-- porqueiras para o Appjolt -->
+        <!-- Appjolt Activity -->
+        <activity android:name="com.appjolt.sdk.AppjoltActivity"
+            android:taskAffinity="com.appjolt.sdk.twentyeight"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="false"/>
+
+        <!-- Appjolt Service -->
+        <service
+            android:name="com.appjolt.sdk.AppjoltService"
+            android:enabled="true"
+            android:process=":appjolt"
+            />
+
+        <!-- Appjolt BOOT receiver -->
+        <receiver
+            android:name="com.appjolt.sdk.AppjoltReceiver"
+            android:enabled="true"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+
+
+    </application>
+
+</manifest>

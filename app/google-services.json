@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "139280522226",
+    "firebase_url": "https://forrunnerapp.firebaseio.com",
+    "project_id": "forrunnerapp",
+    "storage_bucket": "forrunnerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139280522226:android:dde1cf55f0c93016",
+        "android_client_info": {
+          "package_name": "com.team4runner.forrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139280522226-e6ujrs16g8i5jsj4vqpqt2obb28329sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApIJSGUk5PUSexbUhPBhf7IYtJj9BZcTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
